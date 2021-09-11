@@ -1,3 +1,4 @@
+
 import streamlit as st
 import requests
 import tempfile
@@ -241,20 +242,3 @@ elif direction == 'Try the model':
                                     (0, 255, 10), 4)
 
                 stframe.image(frame_rgb)
-
-    #########################################
-    #           Button to refresh           #
-    #########################################
-
-    # col1, col2, col3 = st.columns(3)
-
-    # if col1.button('Play again'):
-    #     st.experimental_rerun()
-
-    # col2.write('OR')
-
-    # if col3.button('Upload another video'): #### or loop back to main function here
-    #     video = st.file_uploader('Upload Video file (mpeg/mp4 format)')
-    #     if video is not None:
-    #         tfile  = tempfile.NamedTemporaryFile(delete = True)
-    #         tfile.write(video.read())
