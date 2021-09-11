@@ -11,7 +11,7 @@ import os
 from tensorflow.lite.python.interpreter import Interpreter
 
 # Get path to model
-PATH_FOR_MY_MODEL = 'violence_detection/models/VGG19_lr_0.0002_model_v3-0.7082'
+PATH_FOR_MY_MODEL = 'models/VGG19_lr_0.0002_model_v3-0.7082'
 
 # Get path to current working directory
 CWD_PATH = os.getcwd()
